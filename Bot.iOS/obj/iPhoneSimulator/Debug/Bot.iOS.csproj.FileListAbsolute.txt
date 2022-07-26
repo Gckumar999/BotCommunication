@@ -1,0 +1,29 @@
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/bin/iPhoneSimulator/Debug/Bot.iOS.exe
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/bin/iPhoneSimulator/Debug/Bot.iOS.pdb
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/bin/iPhoneSimulator/Debug/Microsoft.Bot.Connector.DirectLine.dll
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/bin/iPhoneSimulator/Debug/Microsoft.Rest.ClientRuntime.dll
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/bin/iPhoneSimulator/Debug/System.IO.Compression.dll
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/bin/iPhoneSimulator/Debug/System.Net.Http.dll
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/bin/iPhoneSimulator/Debug/System.Security.Cryptography.Encoding.dll
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/bin/iPhoneSimulator/Debug/System.Security.Cryptography.X509Certificates.dll
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/bin/iPhoneSimulator/Debug/Bot.Common.dll
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/bin/iPhoneSimulator/Debug/Bot.Common.pdb
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/device-builds/abcdef - 6s plus-14.2/actool/_PartialAppManifest.items
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/device-builds/abcdef - 6s plus-14.2/actool/_BundleResourceWithLogicalName.items
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/device-builds/abcdef - 6s plus-14.2/actool/_ProcessedImageAssetsPath.items
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/device-builds/abcdef - 6s plus-14.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/device-builds/abcdef - 6s plus-14.2/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/device-builds/abcdef - 6s plus-14.2/coremlc/_PartialAppManifest.items
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/device-builds/abcdef - 6s plus-14.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/device-builds/abcdef - 6s plus-14.2/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/device-builds/abcdef - 6s plus-14.2/_ProcessedBundleResourcesPath.items
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/device-builds/abcdef - 6s plus-14.2/_ProcessedContentPath.items
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/device-builds/abcdef - 6s plus-14.2/optimized/
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/Bot.iOS.csproj.AssemblyReference.cache
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/Bot.iOS.csproj.CoreCompileInputs.cache
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/Bot.iOS.csproj.CopyComplete
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/Bot.iOS.exe
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/iPhoneSimulator/Debug/Bot.iOS.pdb

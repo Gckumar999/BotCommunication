@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Microsoft.Bot.Connector.DirectLine" />
+    <None Remove="Services\" />
+    <None Remove="Interfaces\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Xamarin.Essentials" />
+    <None Remove="Microsoft.Rest.ClientRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Bot.Connector.DirectLine" Version="3.0.2" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+    <PackageReference Include="Microsoft.Rest.ClientRuntime" Version="2.3.24" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+</Project>

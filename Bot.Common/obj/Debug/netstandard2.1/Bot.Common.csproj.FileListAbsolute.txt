@@ -1,0 +1,10 @@
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/bin/Debug/netstandard2.1/Bot.Common.deps.json
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/bin/Debug/netstandard2.1/Bot.Common.dll
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/bin/Debug/netstandard2.1/Bot.Common.pdb
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.csproj.AssemblyReference.cache
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.AssemblyInfoInputs.cache
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.AssemblyInfo.cs
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.csproj.CoreCompileInputs.cache
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.dll
+/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.pdb

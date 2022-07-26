@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="Bot.iOS.app/Bot.iOS">
+      <BCSymbolMapName>Bot.iOS.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>Bot.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>obj/iPhoneSimulator/Debug/device-builds/abcdef - 6s plus-14.2/mtouch-symbols.list</SymbolFile>
+      <DSymName>Bot.iOS.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
