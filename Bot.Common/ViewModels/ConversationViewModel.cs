@@ -2,6 +2,7 @@
 using Bot.Portable.Common.ViewModels;
 using Microsoft.Bot.Connector.DirectLine;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
@@ -64,9 +65,14 @@ namespace Microsoft.Botframework.Xamarin.ViewModels
 
         private void ActivityReceived(object sender, ActivityEventArgs e)
         {
+            var listText = new List<string>();
             if (string.Equals(e.Activity.Type, "message")) // only add messages to our list
             {
                 Messages.Add(e.Activity);
+            }
+            foreach(var m in Messages)
+            {
+                listText.Add(m.Text);
             }
         }
 

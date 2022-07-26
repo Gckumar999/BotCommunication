@@ -7,12 +7,16 @@ using AndroidX.AppCompat.Widget;
 using AndroidX.AppCompat.App;
 using Google.Android.Material.FloatingActionButton;
 using Google.Android.Material.Snackbar;
+using Bot.Common.Services;
+using Microsoft.Botframework.Xamarin.ViewModels;
 
 namespace AzureChatBot
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
+        ConversationViewModel conversationViewModel;
+        int count = 0;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -24,6 +28,8 @@ namespace AzureChatBot
 
             FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             fab.Click += FabOnClick;
+
+           conversationViewModel = new ConversationViewModel(new BotService());
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
@@ -45,9 +51,12 @@ namespace AzureChatBot
 
         private void FabOnClick(object sender, EventArgs eventArgs)
         {
-            View view = (View)sender;
-            Snackbar.Make(view, "Replace with your own action", Snackbar.LengthLong)
-                .SetAction("Action", (View.IOnClickListener)null).Show();
+            count++;
+            conversationViewModel.Message = $"Hi";
+            conversationViewModel.OnSendMessage(null);
+            //View view = (View)sender;
+            //Snackbar.Make(view, "Replace with your own action", Snackbar.LengthLong)
+            //    .SetAction("Action", (View.IOnClickListener)null).Show();
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
