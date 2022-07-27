@@ -51,9 +51,13 @@ namespace AzureChatBot
 
         private void FabOnClick(object sender, EventArgs eventArgs)
         {
-            count++;
             conversationViewModel.Message = $"Hi";
+            if (count == 1)
+            {
+                conversationViewModel.Message = $"Knowledge";
+            }
             conversationViewModel.OnSendMessage(null);
+            count++;
             //View view = (View)sender;
             //Snackbar.Make(view, "Replace with your own action", Snackbar.LengthLong)
             //    .SetAction("Action", (View.IOnClickListener)null).Show();

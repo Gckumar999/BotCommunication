@@ -12,23 +12,23 @@ namespace Bot.Common.Services
     public class BotService : IBotService
     {
         private DirectLineClient _client;
-        private string _directLineSecret = ""; // your secret here
+        private string _directLineSecret = "bp4FdxRYX-w.oL2ktJzEWgXAgbB4iiEaAsrCxcY_Djx7S8HqmAJxPEs"; // your secret here
         private Conversation _defaultConversation;
         private string _watermark;
 
         public event EventHandler<ActivityEventArgs> ActivitySent;
         public event EventHandler<ActivityEventArgs> ActivityReceived;
-
+        public Microsoft.Bot.Connector.DirectLine.Activity SentActivity { get; set; }
         public BotService()
         {
             if (string.IsNullOrEmpty(this._directLineSecret)) throw new ArgumentNullException("Direct Line Secret is required");
 
+            //create the direct line client with secret
             _client = new DirectLineClient(_directLineSecret);
             // MessagingCenter.Subscribe<AdaptiveCardLayout, ActionEventArgs>(this, "AdaptiveCardAction", _handleAdaptiveCardAction);
-
         }
 
-        
+        //start conversation and get the token and conversation id
         public async Task<string> StartConversation(bool isDefault = true)
         {
             var conversation = await _client.Conversations.StartConversationAsync();
@@ -41,16 +41,22 @@ namespace Bot.Common.Services
             return conversation.ConversationId;
         }
 
+
+        // Retrive the message from bot in every 5 second
         private void PollForMessages(Conversation conversation)
         {
             var startTimeSpan = TimeSpan.Zero;
-            var periodTimeSpan = TimeSpan.FromSeconds(1);
+            var periodTimeSpan = TimeSpan.FromSeconds(5);
             var timer = new System.Threading.Timer((e) =>
             {
                 var activitySet = _client.Conversations.GetActivities(conversation.ConversationId, _watermark);
-                var activities = activitySet?.Activities.Where(_ => _.From.Id != GetUserId());
+                //filter only the message from bot
+                var activities = activitySet?.Activities.Where(activity => activity.From.Id != GetUserId());
                 _watermark = activitySet.Watermark;
-                if (activities != null)
+                int allActivitySetCount = activitySet.Activities.Count ;
+                int botActivityCount = activities.Count();
+                activities = activities.OrderBy(o=>o.Timestamp).ToList();
+                if (activities != null && activities.Any())
                 {
                     foreach (var activity in activities)
                     {
@@ -61,7 +67,7 @@ namespace Bot.Common.Services
             }, null, periodTimeSpan, periodTimeSpan);
         }
 
-        public Microsoft.Bot.Connector.DirectLine.Activity SentActivity { get; set; }
+       //Send the messasge to the bot
         public async Task<Microsoft.Bot.Connector.DirectLine.ResourceResponse> SendMessage(string message, string conversationId = null)
         {
             if (conversationId == null)
@@ -72,7 +78,8 @@ namespace Bot.Common.Services
             {
                 From = GetChannelAccount(),
                 Text = message,
-                Type = Microsoft.Bot.Connector.DirectLine.ActivityTypes.Message
+                Type = Microsoft.Bot.Connector.DirectLine.ActivityTypes.Message,
+                Timestamp = DateTime.Now
             };
 
             ActivitySent?.Invoke(this, new ActivityEventArgs() { Activity = SentActivity });
@@ -81,6 +88,7 @@ namespace Bot.Common.Services
             return response;
         }
 
+        // Get the User Id to send the message to bot
         private Microsoft.Bot.Connector.DirectLine.ChannelAccount GetChannelAccount()
         {
             return new Microsoft.Bot.Connector.DirectLine.ChannelAccount(GetUserId());
@@ -91,6 +99,7 @@ namespace Bot.Common.Services
             return _defaultConversation.ConversationId ?? throw new NullReferenceException("Default Conversation was not set");
         }
 
+        // Get the user id
         private string GetUserId()
         {
             return "DevTestUser";

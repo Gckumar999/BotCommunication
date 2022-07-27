@@ -5649,20 +5649,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/kumar.g.c/.nuget/packages/": {}
+    "/Users/gokulakrishnan.mani/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/Bot.iOS.csproj",
+      "projectUniqueName": "/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.iOS/Bot.iOS.csproj",
       "projectName": "Bot.iOS",
-      "projectPath": "/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/Bot.iOS.csproj",
-      "packagesPath": "/Users/kumar.g.c/.nuget/packages/",
-      "outputPath": "/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.iOS/obj/",
+      "projectPath": "/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.iOS/Bot.iOS.csproj",
+      "packagesPath": "/Users/gokulakrishnan.mani/.nuget/packages/",
+      "outputPath": "/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/kumar.g.c/.config/NuGet/NuGet.Config"
+        "/Users/gokulakrishnan.mani/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -5673,8 +5673,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/Bot.Common.csproj": {
-              "projectPath": "/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/Bot.Common.csproj"
+            "/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/Bot.Common.csproj": {
+              "projectPath": "/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/Bot.Common.csproj"
             }
           }
         }

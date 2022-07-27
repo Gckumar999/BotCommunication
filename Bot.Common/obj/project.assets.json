@@ -5387,19 +5387,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/kumar.g.c/.nuget/packages/": {}
+    "/Users/gokulakrishnan.mani/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/Bot.Common.csproj",
+      "projectUniqueName": "/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/Bot.Common.csproj",
       "projectName": "Bot.Common",
-      "projectPath": "/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/Bot.Common.csproj",
-      "packagesPath": "/Users/kumar.g.c/.nuget/packages/",
-      "outputPath": "/Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/obj/",
+      "projectPath": "/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/Bot.Common.csproj",
+      "packagesPath": "/Users/gokulakrishnan.mani/.nuget/packages/",
+      "outputPath": "/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kumar.g.c/.config/NuGet/NuGet.Config"
+        "/Users/gokulakrishnan.mani/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -5451,7 +5451,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }

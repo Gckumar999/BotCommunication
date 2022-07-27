@@ -14,6 +14,7 @@ namespace Bot.Common.Interfaces
 
         event EventHandler<ActivityEventArgs> ActivitySent;
         event EventHandler<ActivityEventArgs> ActivityReceived;
+        event EventHandler<List<Activity>> BotActivitiesReceived;
     }
 
     public class ActivityEventArgs : EventArgs

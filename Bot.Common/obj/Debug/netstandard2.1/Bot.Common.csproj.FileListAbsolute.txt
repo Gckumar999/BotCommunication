@@ -8,3 +8,12 @@
 /Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.csproj.CoreCompileInputs.cache
 /Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.dll
 /Users/kumar.g.c/Documents/SampleApps/AzureChatBot/AzureChatBot/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.pdb
+/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/bin/Debug/netstandard2.1/Bot.Common.deps.json
+/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/bin/Debug/netstandard2.1/Bot.Common.dll
+/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/bin/Debug/netstandard2.1/Bot.Common.pdb
+/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.csproj.AssemblyReference.cache
+/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.AssemblyInfoInputs.cache
+/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.AssemblyInfo.cs
+/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.csproj.CoreCompileInputs.cache
+/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.dll
+/Users/gokulakrishnan.mani/XamarinProjects/BotCommunication/Bot.Common/obj/Debug/netstandard2.1/Bot.Common.pdb
